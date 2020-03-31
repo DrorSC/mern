@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #1f487e;
+  
+    display: flex;
+    padding: 10px;
+    /* color: #a9c2e1; */
+    color: white;
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    justify-content: space-between;
+
+}
+
+.login{
+    /* float: left; */
+   
+   
+}
+.links{
+    display: flex;
+    color: #a9c2e1; 
+    align-self: center;
+   
+}
+.links > *{
+    margin: 0 10px;
+}
+.login:hover, .chat:hover{
+    color: white;
+    cursor: pointer;
+}
+.header{
+    font-size: 20px;
+}
