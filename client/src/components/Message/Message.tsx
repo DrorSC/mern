@@ -1,12 +1,13 @@
 import React from 'react';
+import { MessageDisplay } from '../../models/Message';
 
-function Message(){
-    // const {messages} = props;
+function Message(msg: any){
+   
     return (
-      <ul className="Messages-list">
-       
-      </ul>
+      <div>
+       {msg.msg.content}
+      </div>
     );
 }
 
-export default Message;
+export default Message
